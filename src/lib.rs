@@ -23,6 +23,6 @@ pub fn extract_tx_version(raw_tx_hex: &str) -> Result<u32, String> {
         version_bytes[2],
         version_bytes[3],
     ]);
-    
+
     Ok(version_code)
 }
